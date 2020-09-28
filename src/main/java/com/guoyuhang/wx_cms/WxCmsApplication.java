@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author guoyuhang
+ * @author guoyuhang1996
  */
 @SpringBootApplication
 @MapperScan("com.guoyuhang.wx_cms.dao.mapper")
