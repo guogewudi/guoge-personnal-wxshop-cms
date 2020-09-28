@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guoyuhang.wx_cms.dao.mapper.BannerImageMapper">
+    <!--    配置查询所有 id为方法名 resultType指定封装的实体类型-->
+    <select id="findAll" resultType="com.guoyuhang.wx_cms.dao.model.BannerImage">
+        select *from banner_image
+    </select>
+
+
+    <insert id="insertOne" parameterType="com.guoyuhang.wx_cms.dao.model.BannerImage">
+        insert into banner_image(id,banner_id,img,keyword,type,name) VALUES (
+        #{id},
+        #{bannerId},
+        #{img},
+        #{keyword},
+        #{type},
+        #{name}
+  );
+    </insert>
+
+</mapper>

@@ -1,0 +1,20 @@
+server:
+  port: 9002
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+
+    username: root
+    url: jdbc:mysql://39.96.34.25:3306/guoge-wx-shop-cms?useUnicode=true&characterEncoding=utf-8
+    password: admin
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.guoyuhang.wx_cms.dao.model
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper: debug
