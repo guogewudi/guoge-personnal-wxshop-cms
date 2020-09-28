@@ -6,6 +6,7 @@ import com.guoyuhang.wx_cms.dao.model.Banner;
 import com.guoyuhang.wx_cms.dao.model.BannerImage;
 import com.guoyuhang.wx_cms.service.BannerImageService;
 import com.guoyuhang.wx_cms.service.BannerService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.web.bind.annotation.*;
@@ -21,6 +22,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/banner")
+@Slf4j
 public class BannerController {
 
     @Autowired
