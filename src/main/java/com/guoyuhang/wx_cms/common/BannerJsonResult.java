@@ -1,7 +1,6 @@
 package com.guoyuhang.wx_cms.common;
 
-import com.guoyuhang.wx_cms.dao.model.Banner;
-import com.guoyuhang.wx_cms.dao.model.BannerImage;
+import com.guoyuhang.wx_cms.dao.model.BannerItem;
 import lombok.Data;
 
 import java.util.List;
@@ -18,5 +17,5 @@ public class BannerJsonResult {
     private String description;
     private String img;
     private String title;
-    private List<BannerImage> item;
+    private List<BannerItem> item;
 }

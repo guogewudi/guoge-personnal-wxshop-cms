@@ -10,10 +10,12 @@ import java.util.List;
  * @date 2020-09-28 23:17
  * @description:
  */
-@Service
+
 public interface BannerService {
 
     public List<Banner> findAllBanner();
+
     public Integer insertOneBanner(Banner banner);
+
     public Banner findById(Integer id);
 }

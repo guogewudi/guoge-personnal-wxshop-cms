@@ -4,6 +4,7 @@ import com.guoyuhang.wx_cms.dao.mapper.BannerMapper;
 import com.guoyuhang.wx_cms.dao.model.Banner;
 import com.guoyuhang.wx_cms.service.BannerService;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,7 +17,8 @@ import java.util.List;
 @Service
 public class BannerServiceImpl implements BannerService {
     @Autowired
-    private BannerMapper  bannerMapper;
+    private BannerMapper bannerMapper;
+
     @Override
     public List<Banner> findAllBanner() {
         return bannerMapper.findAllBanner();

@@ -40,16 +40,151 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
-
-        <table tableName="banner_image" domainObjectName="BannerImage" enableCountByExample="true" enableUpdateByExample="true"
+        <table tableName="activity" domainObjectName="Activity" enableCountByExample="true" enableUpdateByExample="true"
                enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
             <property name="useActualColumnNames" value="false"/>
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
-<!--        <table tableName="banner_image" domainObjectName="BannerImage" enableCountByExample="true" enableUpdateByExample="true"-->
-<!--               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">-->
-<!--            <property name="useActualColumnNames" value="false"/>-->
-<!--            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>-->
-<!--        </table>-->
+        <table tableName="activity_category" domainObjectName="ActivityCategory" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="activity_coupon" domainObjectName="ActivityCoupon" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="activity_spu" domainObjectName="ActivitySpu" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="banner" domainObjectName="Banner" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+
+        <table tableName="banner_item" domainObjectName="BannerItem" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="brand" domainObjectName="Brand" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="category" domainObjectName="Category" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="coupon" domainObjectName="Coupon" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="coupon_category" domainObjectName="CouponCategory" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="coupon_template" domainObjectName="CouponTemplate" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="coupon_type" domainObjectName="CouponType" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="grid_category" domainObjectName="GridCategory" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="order" domainObjectName="Order" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="sale_explain" domainObjectName="SaleExplain" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="sku" domainObjectName="Sku" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="sku_spec" domainObjectName="SkuSpec" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="spec_key" domainObjectName="SpecKey" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="spec_value" domainObjectName="SpecValue" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="spu" domainObjectName="Spu" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="spu_detail_img" domainObjectName="SpuDetailImg" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="spu_img" domainObjectName="SpuImg" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="spu_key" domainObjectName="SpuKey" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="spu_tag" domainObjectName="SpuTag" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="tag" domainObjectName="Tag" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="theme" domainObjectName="Theme" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="theme_spu" domainObjectName="ThemeSpu" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="user" domainObjectName="User" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="user_coupon" domainObjectName="UserCoupon" enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true" delimitAllColumns="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
     </context>
 </generatorConfiguration>
