@@ -4,6 +4,9 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author guoyuhang1996
+ */
 @SpringBootApplication
 @MapperScan("com.guoyuhang.wx_cms.dao.mapper")
 public class WxCmsApplication {

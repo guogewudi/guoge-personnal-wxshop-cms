@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @author yuhang.guo2
  * @date 2020-09-28 19:48
- * @description:
+ * @description: ok
  */
 @Data
 public class BannerJsonResult {
